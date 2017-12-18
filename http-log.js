@@ -4,7 +4,7 @@ const server = http.createServer();
 const port = process.argv[2] || 3000;
 
 server.on("request", function (request, response) {
-  console.log('=== BEGIN ===');
+  console.log('\n=== BEGIN ===');
   console.log(`HTTP ${request.httpVersion} ${request.method} ${request.url}`);
 
   console.log('HEADERS:');
