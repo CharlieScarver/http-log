@@ -2,7 +2,7 @@
 Simple http server that logs the requests it receives.
 
 Run the file with node.
-The server will run on *localhost:3000* by default.
+The server will run on **localhost:3000** by default.
 You can specify the port as a runtime argument.
 
 Example:
